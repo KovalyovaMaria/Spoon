@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+a,
+nav,
+button {
+    font-family: LibreFranklin;
+    animation: emerge 10s;
+}
+
+p {
+    color: rgba(153, 153, 153, 1);
+    font-family: IBM Plex Mono;
+    animation: emerge 10s;
+}
+
+.container {
+    max-width: 1920px;
+    min-width: 200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    background-image: url(../assets/img/img_main_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+header .container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+header .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+header .title img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 10%;
+    animation: emerge 10s;
+    animation: flip infinite 4s;
+}
+
+header .title nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .title a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+header .title #Rectangle {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+}
+
+header .title button {
+    color: white;
+    background-color: rgb(247, 248, 249, 0);
+    border: 1px solid white;
+    padding: 10px;
+}
+
+header .description {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+header .description h1 {
+    color: white;
+    font-size: 71px;
+    ;
+}
+
+header .description p {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+header .description button {
+    background-color: rgba(90, 185, 99, 1);
+    width: 160px;
+    height: 60px;
+    border: 1px solid white;
+    color: white;
+    margin: 40px 270px auto;
+    border-radius: 4px;
+
+}
+
+main {
+    padding: 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: repeat(1, 300px);
+}
+
+.services div {
+    align-self: center;
+}
+
+.introduce .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(1, 300px);
+    row-gap: 30px;
+    column-gap: 30px;
+    animation: emerge 10s;
+}
+
+.introduce .cards div {
+    padding: 40px;
+    align-self: center;
+    border: 1px solid rgba(247, 247, 247, 1);
+
+}
+
+.foto {
+    margin: 100px auto;
+
+}
+
+.foto .imeges {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: emerge 10s;
+}
+
+.foto .imeges div {
+    width: 100%;
+    padding: 300px;
+    background-image: url(../assets/img/img_bruchketta_one.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: newAnim 5s infinite alternate;
+
+}
+
+.information {
+
+    margin: 100px auto;
+}
+
+.information .article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information .article p {
+    color: rgba(0, 0, 0, 0.4);
+    margin: 8px auto;
+}
+
+.information .article a {
+    color: rgba(90, 185, 99, 1);
+    text-decoration: none;
+    font-family: IBM Plex Mono;
+    font-size: 11px;
+}
+
+span {
+    font-family: IBMPlexMono-Bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.apricots {
+    margin: 100px auto;
+}
+
+.apricots .describe1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(620px, 1fr));
+    row-gap: 40px;
+    column-gap: 60px;
+    animation: emerge 10s;
+}
+
+.apricots .describe1 div img {
+    width: 100%;
+    animation: pulse infinite 5s 10s;
+}
+
+.apricots div {
+    align-self: center;
+    justify-self: center;
+}
+
+.apricots div p {
+    padding: 0 100px;
+}
+
+.flakes .describe2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(620px, 1fr));
+    row-gap: 40px;
+    column-gap: 60px;
+    animation: emerge 10s;
+}
+
+.flakes .describe2 div {
+    align-self: center;
+    justify-self: center;
+}
+
+.flakes .describe2 div img {
+    width: 90%;
+    animation: pulse infinite 5s 10s;
+}
+
+.flakes .describe2 div p {
+    padding: 0 100px;
+
+}
+
+.offer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.offer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    animation: animScale infinite 2s 10s;
+}
+
+.offer div a {
+    color: rgba(90, 185, 99, 1);
+    text-decoration: none;
+    font-family: IBM Plex Mono;
+    font-size: 11px;
+}
+
+.partyOn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 130px auto;
+}
+
+.partyOn button {
+    background-color: rgba(90, 185, 99, 1);
+    width: 160px;
+    height: 60px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+}
+
+footer {
+    margin: auto;
+    background-color: rgba(10, 14, 26, 1);
+}
+
+footer .container .menu {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+footer .container .menu .logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+footer .container .menu .logo img {
+    width: 60px;
+    animation: emerge 10s;
+}
+
+footer .container .menu .logo p {
+    font-size: 12px;
+    color: rgba(102, 102, 102, 1);
+}
+
+footer .container .menu nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .container .menu nav a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 50px;
+    margin: 30px auto;
+}
+
+footer .container .menu nav img {
+    display: flex;
+    padding: 30px;
+}
