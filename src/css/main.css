@@ -381,7 +381,7 @@ footer .container .menu nav #contact .contact-content iframe{
 }
 footer .container .menu nav #contact .contact-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
