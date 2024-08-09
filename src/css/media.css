@@ -1,0 +1,105 @@
+@media (max-width:1000px) {
+    header .title button {
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    header .title img {
+        grid-column: 2/4;
+        width: 40%;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    header .title {
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 800px) {
+    header .description h1 {
+        font-size: xx-large;
+    }
+}
+
+@media (max-width: 900px) {
+    .introduce .cards {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width:400px) {
+    .services {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width:650px) {
+    .foto .imeges div {
+        padding: 150px;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width:350px) {
+    .foto .imeges div {
+        padding: 100px;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width:600px) {
+    .apricots .describe1 {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .apricots .describe1 p {
+        padding: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .flakes .describe2 {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .flakes .describe2 div p {
+        padding: 0;
+    }
+}
+
+@media (max-width:800px) {
+    footer .container .menu {
+        grid-template-columns: auto;
+    }
+
+}
+
+@media (max-width:800px) {
+    footer .container .menu div img {
+        justify-self: center;
+        padding: 20px;
+    }
+}
+
+@media (max-width:1300px) {
+    footer .container .menu nav #contact .contact-content {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width:800px) {
+    footer .container .menu div{
+
+    }
+}
